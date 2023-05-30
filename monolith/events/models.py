@@ -49,7 +49,7 @@ class Location(models.Model):
         return self.name
 
     class Meta:
-        ordering = ("id",)  # Default ordering for Location
+        ordering = ("name",)  # Default ordering for Location
 
 
 class Conference(models.Model):
@@ -82,4 +82,4 @@ class Conference(models.Model):
         return self.name
 
     class Meta:
-        ordering = ("id", "name")  # Default ordering for Conference
+        ordering = ("starts",)  # Default ordering for Conference
