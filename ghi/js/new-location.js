@@ -1,3 +1,4 @@
+
 window.addEventListener('DOMContentLoaded', async () => {
 
     const url = 'http://localhost:8000/api/states/';
